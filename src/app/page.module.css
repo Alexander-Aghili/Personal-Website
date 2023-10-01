@@ -1,10 +1,18 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+  gap: 2rem; /* Adjust the value as needed */
+}
+
+.circularProfileImage {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes it circular */
+  overflow: hidden; /* Hides the parts of the image outside the circle */
+  justify-content: left;
 }
 
 .description {
