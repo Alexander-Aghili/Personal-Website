@@ -10,10 +10,10 @@ const Navbar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/about">About</Link>
+          <Link href="./about">About</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/portfolio">Portfolio</Link>
+          <Link href="/pages/portfolio">Portfolio</Link>
         </li>
         <li className={styles.navItem}>
           <Link href="/blog">Blog</Link>

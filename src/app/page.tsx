@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react';
 import styles from './page.module.css'
 import Navbar from './components/Navbar'
-import profileImage from './p.jpeg'; // Import your image
+import profileImage from './p.jpeg'; // Import image
 
 
 export default function Home() {
