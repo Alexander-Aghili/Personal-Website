@@ -10,13 +10,10 @@ const Navbar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="./about">About</Link>
-        </li>
-        <li className={styles.navItem}>
           <Link href="/pages/portfolio">Portfolio</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/blog">Blog</Link>
+          <Link href="/pages/blog">Blog</Link>
         </li>
         <li className={styles.navItem}>
           <Link href="/contact">Contact</Link>

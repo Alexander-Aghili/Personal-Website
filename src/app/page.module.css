@@ -1,31 +1,38 @@
 .main {
-  flex-direction: column;
   padding: 2rem;
   min-height: 100vh;
   gap: 2rem;
 }
 
+.homePage {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.introductionStatement {
+  display: flex;
+  padding: 1rem;
+}
+
+.smallBio {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 600px; /* Adjust the width as needed */
+  padding: 1rem; /* Add padding for spacing */
+}
+.smallBio h1 {
+  margin-bottom: 20px;
+}
 .circularProfileImage {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-}
-
-.smallBio {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
-  margin-left: 5%;
-  width: 300px; /* Adjust the width as needed */
-  padding: 1rem; /* Add padding for spacing */
-  border: 1px solid #ccc; /* Optional: Add a border for visual reference */
-  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
-}
-.smallBio h1 {
-  margin-bottom: 20px;
 }
 
 
