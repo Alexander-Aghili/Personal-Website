@@ -9,6 +9,8 @@
 
 .ul {
     list-style-type: none;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .licontainer{
@@ -20,11 +22,10 @@
     box-shadow: inset;
     border-color: lightgray;
     border-width: 1px;
-    list-style-type: none;
 }
 
 .licontainer:hover{
-    padding: 7px;
-    border-color: rgb(69, 52, 168);
-    border-width: 3px;
+    padding: 8px;
+    border-color:#ff9900;
+    border-width: 2px;
 }
