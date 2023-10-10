@@ -1,7 +1,8 @@
 "use client"
 import blogs from './blog.json';
-import Navbar from '@/app/components/Navbar';
+import Navbar from '@/app/components/Navbar/Navbar';
 import styles from './page.module.css'
+import Image from 'next/image';
 
 
 const ProjectList = () => {
@@ -22,7 +23,7 @@ const ProjectList = () => {
                 </h3>
               </div>
               <div className={styles.imagedescriptionlayer}>
-                <div className={styles.thumbnail} style={{ backgroundImage: `url(${blog.Image_Location})` }}></div>
+                <Image className={styles.thumbnail} src={blog.Image_Location} alt={'Blog Image'} width={150} height={150}/>
                 <div className={styles.basetext}>
                   Exploring the abandonded bohemian living space of Druid Heights in Muir Woods.
                 </div>

@@ -1,5 +1,5 @@
 import projects from './projects.json';
-import Navbar from '@/app/components/Navbar';
+import Navbar from '@/app/components/Navbar/Navbar';
 import styles from './page.module.css'
 
 

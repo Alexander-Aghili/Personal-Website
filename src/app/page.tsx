@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react';
 import styles from './page.module.css'
-import Navbar from './components/Navbar'
-import profileImage from './p.jpeg'; // Import image
-import introduction from './static_data/introduction';
-
+import Navbar from './components/Navbar/Navbar'
+import profileImage from '../../public/static/images/p.jpeg'; // Import image
+import introduction from '../../public/static/text/introduction';
+import Socialbar from './components/Socialbar/Socialbar';
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ export default function Home() {
             />
           </div>
           </div>
+          <Socialbar/>
         </div>
         <div className={styles.introductionStatement}>
           {introduction}
