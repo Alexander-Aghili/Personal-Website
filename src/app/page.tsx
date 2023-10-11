@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react';
 import styles from './page.module.css'
 import Navbar from './components/Navbar/Navbar'
-import profileImage from '../../public/static/images/p.jpeg'; // Import image
+import profileImage from '../../public/static/images/profilepic.jpeg'; // Import image
 import introduction from '../../public/static/text/introduction';
 import Socialbar from './components/Socialbar/Socialbar';
 

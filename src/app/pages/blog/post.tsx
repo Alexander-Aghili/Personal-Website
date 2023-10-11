@@ -1,8 +1,8 @@
 import matter from "gray-matter";
 import path from "path";
+import fs from 'fs';
 
-const postsDirectory = "./posts/";
-const fs = require('fs')
+const postsDirectory = path.join(process.cwd(), './public/static/Blog/posts')
 
 export function getAllPostIds() {
     const fileNames = fs.readdirSync(postsDirectory);
@@ -18,14 +18,17 @@ export function getAllPostIds() {
 
 export function getPostData(id: any) {
     const fullPath = path.join(postsDirectory, `${id}.md`);
+    console.log(fullPath);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
   
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
   
-    // Combine the data with the id
-    return {
-      id,
-      ...matterResult.data,
-    };
+    const blogPost: BlogPost = {
+        id,
+        title : matterResult.data.title,
+        date: matterResult.data.date,
+    }
+
+    return blogPost;
 }
