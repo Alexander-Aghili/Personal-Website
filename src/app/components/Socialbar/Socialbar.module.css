@@ -2,6 +2,15 @@
     margin-bottom: 13px;
 }
 
+.githubIcon:hover {
+    opacity: 30%;
+}
+
 .linkedinIcon {
     margin-top: 10px;
+}
+
+
+.linkedinIcon:hover {
+    opacity: 30%;
 }
