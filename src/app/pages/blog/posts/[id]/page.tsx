@@ -1,29 +1,50 @@
-import {getAllPostIds, getPostData} from '../../post';
+import { getSortedPostsData, getPostData } from "../../post"
+import { notFound } from "next/navigation"
+import Link from "next/link"
 
+export function generateStaticParams() {
+    const posts = getSortedPostsData()
 
-export default function Post({ postData }: any) {
+    return posts.map((post) => ({
+        postId: post.id
+    }))
+}
+
+export function generateMetadata({ params }: { params: { postId: string } }) {
+
+    const posts = getSortedPostsData()
+    const { postId } = params
+
+    const post = posts.find(post => post.id === postId)
+
+    if (!post) {
+        return {
+            title: 'Post Not Found'
+        }
+    }
+
+    return {
+        title: post.title,
+    }
+}
+
+export default async function Post({ params }: { params: { id: string } }) {
+
+    const posts = getSortedPostsData()
+    const postId = params['id']
+
+    if (!posts.find(post => post.id === postId)) notFound()
+
+    const { title, date, contentHtml } = await getPostData(postId)
+
     return (
-        <h1>
-            {postData.title}
-        </h1>
+        <div>
+            <h1>
+                {title}
+            </h1>
+            <div dangerouslySetInnerHTML={{ __html: {contentHtml}.contentHtml}}>
+
+            </div>
+        </div>
     );
-}
-
-  
-export async function getStaticPaths() {
-    const paths = getAllPostIds();
-    return {
-      paths,
-      fallback: false,
-    };
-}
-
-
-export async function getInitialProps({ params }: any) {
-    const postData = getPostData(params.id);
-    return {
-        props: {
-            postData,
-        },
-    };
 }

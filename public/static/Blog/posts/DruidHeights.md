@@ -27,7 +27,6 @@ Instead you have to park in a small lot on Muir Woods Rd right next to the entra
 From there, it is a 20 minute walk along the road until you reach the place. 
 I used a map to try and navigate around the region, but it was difficult to identity the separate houses with the thick tree cover.
 
-!Pair
 ![](/static/images/Blog/DruidHeights/DruidMap.jpg)
 ![](/static/images/Blog/DruidHeights/Map.jpg)
 
