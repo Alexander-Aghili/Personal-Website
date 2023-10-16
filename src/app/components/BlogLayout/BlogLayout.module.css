@@ -1,0 +1,22 @@
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 300%;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.blog a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.blog p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 130%;
+    line-height: 140%;
+    text-align: center;
+}

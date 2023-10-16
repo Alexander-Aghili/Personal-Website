@@ -2,12 +2,13 @@
 import blogs from './blog.json';
 import Navbar from '@/app/components/Navbar/Navbar';
 import styles from './page.module.css'
+import global_styles from '../../page.module.css'
 import Image from 'next/image';
 
 
 const ProjectList = () => {
   return (
-    <div className={styles.main}>
+    <div className={global_styles.main}>
       <Navbar/>
       <ul className={styles.ul}>
         {blogs.Blogs.map((blog, index) => (

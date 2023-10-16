@@ -1,6 +1,7 @@
 import projects from './projects.json';
 import Navbar from '@/app/components/Navbar/Navbar';
 import styles from './page.module.css'
+import global_styles from '../../page.module.css'
 
 
 const ProjectList = () => {

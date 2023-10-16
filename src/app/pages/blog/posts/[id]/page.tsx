@@ -1,6 +1,7 @@
 import { getSortedPostsData, getPostData } from "../../post"
 import { notFound } from "next/navigation"
 import Link from "next/link"
+import BlogLayout from "@/app/components/BlogLayout/BlogLayout"
 
 export function generateStaticParams() {
     const posts = getSortedPostsData()
@@ -10,10 +11,10 @@ export function generateStaticParams() {
     }))
 }
 
-export function generateMetadata({ params }: { params: { postId: string } }) {
+export function generateMetadata({ params }: { params: { id: string } }) {
 
     const posts = getSortedPostsData()
-    const { postId } = params
+    const postId = params['id']
 
     const post = posts.find(post => post.id === postId)
 
@@ -36,15 +37,5 @@ export default async function Post({ params }: { params: { id: string } }) {
     if (!posts.find(post => post.id === postId)) notFound()
 
     const { title, date, contentHtml } = await getPostData(postId)
-
-    return (
-        <div>
-            <h1>
-                {title}
-            </h1>
-            <div dangerouslySetInnerHTML={{ __html: {contentHtml}.contentHtml}}>
-
-            </div>
-        </div>
-    );
+    return BlogLayout(title, date, contentHtml);
 }
