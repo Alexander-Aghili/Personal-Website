@@ -1,11 +1,10 @@
 ---
 title: 'Druid Heights'
 date: '2022-08-25'
-subtitle: 'The remains of a bohemian communal living area reside in the depths of Muir Woods.
-            I ventured out to explore the area. 
-            Here are my discoveries and the story behind the place.'
+subtitle: 'The remains of a bohemian communal living area reside in the depths of Muir Woods. I ventured out to explore the area. Here are my discoveries and the story behind the place.'
 ---
 
+![](/static/Blog/images/DruidHeights/Aban1.jpg)
 
 A few weeks ago, I was listening to the philosophical teachings of famous writer and speaker Alan Watts. 
 You may have heard a few of his speeches online since they are everywhere in the motivational speaker side of Youtube. 
@@ -30,5 +29,21 @@ I used a map to try and navigate around the region, but it was difficult to iden
 ![](/static/Blog/images/DruidHeights/DruidMap.jpg)
 ![](/static/Blog/images/DruidHeights/Map.png)
 
+Additionally, there were a couple of private areas that were not part of the Golden Gate National Recreation Area, so if you decide to go, be careful to avoid trespassing. 
+When we approached the area, we saw a building up on a hill that had collapsed. 
+It was behind dense and overgrown plants making it inaccessible. We continued along the path until we found an entrance onto the hill. 
+Below are all of the photos from the area.
 
+![](/static/Blog/images/DruidHeights/ArtInWattLib.jpg)
+![](/static/Blog/images/DruidHeights/ManyTrees.jpg)
 
+![](/static/Blog/images/DruidHeights/Car.jpg)
+
+![](/static/Blog/images/DruidHeights/CoolWindow.jpg)
+
+![](/static/Blog/images/DruidHeights/JapanesesMeditation.jpg)
+
+![](/static/Blog/images/DruidHeights/Kitchen.jpg)
+
+![](/static/Blog/images/DruidHeights/TahoeMap.jpg)
+![](/static/Blog/images/DruidHeights/Window.jpg)

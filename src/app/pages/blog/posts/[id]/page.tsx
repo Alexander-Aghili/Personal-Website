@@ -36,6 +36,6 @@ export default async function Post({ params }: { params: { id: string } }) {
 
     if (!posts.find(post => post.id === postId)) notFound()
 
-    const { title, date, contentHtml } = await getPostData(postId)
-    return BlogLayout(title, date, contentHtml);
+    const { title, subtitle, date, contentHtml } = await getPostData(postId)
+    return BlogLayout(title, subtitle, date, contentHtml);
 }

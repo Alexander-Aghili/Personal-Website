@@ -5,7 +5,6 @@ import styles from './page.module.css'
 import global_styles from '../../page.module.css'
 import Image from 'next/image';
 
-
 const ProjectList = () => {
   return (
     <div className={global_styles.main}>
