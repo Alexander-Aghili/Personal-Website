@@ -6,33 +6,29 @@ subtitle: 'The remains of a bohemian communal living area reside in the depths o
 
 ![](/static/Blog/images/DruidHeights/Aban1.jpg)
 
-A few weeks ago, I was listening to the philosophical teachings of famous writer and speaker Alan Watts. 
-You may have heard a few of his speeches online since they are everywhere in the motivational speaker side of Youtube. 
-This channel, [TrueMeaning](https://www.youtube.com/c/TrueMeaning/") is entirely Alan Watt’s teachings, the very same channel I was listening to.
+
+
+A few weeks ago, I had the pleasure of delving into the philosophical teachings of the celebrated writer and speaker, Alan Watts. You've probably encountered his inspiring talks online, as they're widely available in the motivational speaker corner of YouTube. The specific channel I was engrossed in at the time was [TrueMeaning](https://www.youtube.com/c/TrueMeaning/"), which is devoted entirely to sharing Alan Watts' insightful messages.
+
 
 ![](/static/Blog/images/DruidHeights/Watts.jpg)
 
-I became curious about the man and immediately ventured onto Wikipedia. 
-There, I discovered that he died on Mount Tamalpais, the largest mountain in the county of Marin where I live, in some town called Druid Heights. 
-I quickly realized that this was no ordinary town. According to [Wikipedia](https://en.wikipedia.org/wiki/Druid_Heights), Druid Heights was a bohemian community that spawned from famous poet Elsa Gidlow and was host to many influential artisans in the San Francisco counterculture era. 
-However, the Federal government was able to take the land (Either by purchase or eminent domain) and incorporated it into the Golden Gate National Recreation Area during the 1970s. 
-All but two of the buildings were abandoned and left to rot.
+
+Intrigued by the man, I promptly navigated to Wikipedia to learn more about him. To my surprise, I found that Alan Watts had passed away on Mount Tamalpais, the tallest peak in Marin County, right here in the vicinity of where I live. The specific location was a place known as Druid Heights. It soon became apparent that this was no ordinary town. According to [Wikipedia](https://en.wikipedia.org/wiki/Druid_Heights), Druid Heights emerged as a bohemian community with its roots in the creative spirit of the renowned poet Elsa Gidlow. It served as a gathering place for numerous influential artists and visionaries during the San Francisco counterculture era.
+During the 1970s, the Federal government acquired the land, either through purchase or eminent domain, and integrated it into the Golden Gate National Recreation Area. This move resulted in the abandonment and subsequent deterioration of nearly all of the buildings, with only two structures remaining.
 
 ![](/static/Blog/images/DruidHeights/Aban2.jpg)
 
-I decided that I would go explore this place, so I got up, called my friend, and off we went.
-The exact address is 732 Camino del Canyon, but you can’t drive all the way there. 
-Instead you have to park in a small lot on Muir Woods Rd right next to the entrance of Camino Del Canyon. 
-From there, it is a 20 minute walk along the road until you reach the place. 
-I used a map to try and navigate around the region, but it was difficult to identity the separate houses with the thick tree cover.
+With a newfound sense of curiosity, I decided to embark on an adventure to explore this intriguing location. After a quick call to a friend, we set off. The specific address, 732 Camino del Canyon, is somewhat secluded, and you can't drive directly to it. Instead, you need to park in a small lot situated on Muir Woods Rd, right by the entrance to Camino Del Canyon. From there, it's roughly a 20-minute walk along the road to reach the destination. The thick tree cover in the area made it challenging to identify individual houses, so I had to rely on a map to navigate through the region.
 
 ![](/static/Blog/images/DruidHeights/DruidMap.jpg)
 ![](/static/Blog/images/DruidHeights/Map.png)
 
-Additionally, there were a couple of private areas that were not part of the Golden Gate National Recreation Area, so if you decide to go, be careful to avoid trespassing. 
-When we approached the area, we saw a building up on a hill that had collapsed. 
-It was behind dense and overgrown plants making it inaccessible. We continued along the path until we found an entrance onto the hill. 
-Below are all of the photos from the area.
+it's essential to note that there are a few privately owned sections within the vicinity, which are not part of the Golden Gate National Recreation Area. So, if you plan to visit, exercise caution to avoid trespassing on private property.
+
+As we ventured closer to the area, our attention was drawn to a collapsed building perched atop a hill. It was concealed behind thick and overgrown vegetation, making it inaccessible from our current vantage point. Undeterred, we pressed on along the path until we stumbled upon an entrance leading up the hill.
+
+Here are the photos we captured during our exploration of the area.
 
 ![](/static/Blog/images/DruidHeights/ArtInWattLib.jpg)
 ![](/static/Blog/images/DruidHeights/ManyTrees.jpg)

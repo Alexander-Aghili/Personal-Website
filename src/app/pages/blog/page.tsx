@@ -15,17 +15,14 @@ const ProjectList = () => {
             <a className={styles.licontainer} href={blog.Project_Location}>
               <div className={styles.titlelayer}>
                 <h2 className={styles.baseheader}>{blog.Title}</h2>
-                <h3>
+                <h3 className={styles.dateheader}>
                     {blog.Date}
-                    <style jsx>{`
-                        h3{color: gray;}
-                    `}</style>
                 </h3>
               </div>
               <div className={styles.imagedescriptionlayer}>
                 <Image className={styles.thumbnail} src={blog.Image_Location} alt={'Blog Image'} width={150} height={150}/>
                 <div className={styles.basetext}>
-                  Exploring the abandonded bohemian living space of Druid Heights in Muir Woods.
+                  {blog.Description}
                 </div>
               </div>
             </a>

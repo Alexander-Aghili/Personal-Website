@@ -45,3 +45,34 @@
     margin-right: 30px;
     margin-left: 30px;
 }
+
+
+@media (max-width: 820px) {
+
+
+    .subtitle {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 150%;
+        text-align: left;
+        color: gray;
+        margin-bottom: 30px;
+    }
+
+    .blog p {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        color: gray;
+        font-size: 130%;
+        line-height: 140%;
+        text-align: left;
+    }
+
+    .blog img {
+        width: 250px;
+        text-align: center;
+        margin-right: 30px;
+        margin-left: 10%;
+    }
+}

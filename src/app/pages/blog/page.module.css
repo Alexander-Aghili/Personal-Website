@@ -48,3 +48,61 @@
     color:white;
     margin-bottom: 10px;
 }
+
+.dateheader{
+    color: gray;
+}
+
+@media (max-width: 820px) {
+    .ul {
+        margin-top: 40px;
+        list-style-type: none;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .licontainer{
+        display:block;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: inset;
+        border-color: lightgray;
+        border-width: 1px;
+    }
+
+    .baseheader {
+        color:white;
+        text-align: center;
+        margin-bottom: 5px;
+    }    
+
+    .dateheader{
+        text-align: right;
+        color: gray;
+        font-size: 60%;
+    }
+
+    .thumbnail {
+        width: 13em;
+        height: 10em;
+    }
+
+    .titlelayer{
+        display: block;
+        justify-content: flex-start;
+    }
+    
+    .imagedescriptionlayer {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+        /*Custom CSS*/
+    .basetext {
+        margin-top: 10px;
+        padding-left: 10px;
+        color: gray;
+        font-size: 18px;
+        text-align: left;
+    }
+}
