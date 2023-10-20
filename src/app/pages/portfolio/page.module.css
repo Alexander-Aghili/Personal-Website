@@ -6,26 +6,3 @@
     min-height: 100vh;
     gap: 2rem; /* Adjust the value as needed */
 }
-
-.ul {
-    list-style-type: none;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.licontainer{
-    display:block;
-    padding: 9px;
-    margin: 10px;
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: inset;
-    border-color: lightgray;
-    border-width: 1px;
-}
-
-.licontainer:hover{
-    padding: 8px;
-    border-color:#ff9900;
-    border-width: 2px;
-}

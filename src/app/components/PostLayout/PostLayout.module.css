@@ -24,12 +24,12 @@
     color: orange;
 }
 
-.blog a {
+.post a {
     text-decoration: underline;
     color: blue;
 }
 
-.blog p {
+.post p {
     margin-left: 7.5%;
     margin-right: 7.5%;
     margin-bottom: 20px;
@@ -39,13 +39,31 @@
     text-align: center;
 }
 
-.blog img{
+.post img{
     width: 450px;
     text-align: center;
     margin-right: 30px;
     margin-left: 30px;
 }
 
+.post ul {
+    text-align: center;
+    list-style: none;
+    
+}
+  
+.post li {
+    text-align: left;
+    padding-left: 1em; /* Add some padding for the bullet point */
+    color: gray;
+}
+  
+.post li:before {
+    content: "•"; /* Use a bullet point as a pseudo-element */
+    display: inline-block;
+    width: 2em; /* Adjust the width as needed for spacing */
+    text-align: center;
+}
 
 @media (max-width: 820px) {
 
@@ -59,7 +77,7 @@
         margin-bottom: 30px;
     }
 
-    .blog p {
+    .post p {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 20px;
@@ -69,7 +87,7 @@
         text-align: left;
     }
 
-    .blog img {
+    .post img {
         width: 250px;
         text-align: center;
         margin-right: 30px;

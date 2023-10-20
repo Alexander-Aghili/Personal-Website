@@ -4,31 +4,13 @@ import Navbar from '@/app/components/Navbar/Navbar';
 import styles from './page.module.css'
 import global_styles from '../../page.module.css'
 import Image from 'next/image';
+import ListLayout from '@/app/components/ListLayout/list';
 
 const ProjectList = () => {
   return (
-    <div className={global_styles.main}>
+    <div className={styles.main}>
       <Navbar/>
-      <ul className={styles.ul}>
-        {blogs.Blogs.map((blog, index) => (
-          <li key={index}>
-            <a className={styles.licontainer} href={blog.Project_Location}>
-              <div className={styles.titlelayer}>
-                <h2 className={styles.baseheader}>{blog.Title}</h2>
-                <h3 className={styles.dateheader}>
-                    {blog.Date}
-                </h3>
-              </div>
-              <div className={styles.imagedescriptionlayer}>
-                <Image className={styles.thumbnail} src={blog.Image_Location} alt={'Blog Image'} width={150} height={150}/>
-                <div className={styles.basetext}>
-                  {blog.Description}
-                </div>
-              </div>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <ListLayout list={blogs.Blogs} />
     </div>
   );
 };

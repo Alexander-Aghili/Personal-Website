@@ -1,11 +1,12 @@
 {
     "Projects": [
         {
-        "Title": "Public Poll Mobile App",
-        "Project_Location": "./projects/publicpoll.html",
-        "Image_Location": "",
-        "Description": "This is a mobile app I made with Flutter, Apache Tomcat (Java), SQL, and some use of Redis. It allows users to create accounts, create, respond to, and save polls, and even comment on those polls. I developed a custom authentication system, polls, and comment systems."
-        }
+            "Title": "Public Poll Mobile App",
+            "Project_Location": "/pages/portfolio/posts/PublicPoll",
+            "Image_Location": "/static/Projects/images/PublicPoll/MainPollScreen.png",
+            "Description": "This is a mobile app I made with Flutter, Apache Tomcat (Java), SQL, and some use of Redis. It allows users to create accounts, create, respond to, and save polls, and even comment on those polls. I developed a custom authentication system, polls, and comment systems.",
+            "Date": "August 20, 2022"
+        }   
     ]
 }
   
