@@ -1,7 +1,7 @@
 ---
 title: 'Public Poll Mobile App'
 date: '2022-9-21'
-subtitle: ' This is a mobile app that I developed to use as polls between my friends. '
+subtitle: 'This is a mobile app that I developed to use as polls between my friends'
 ---
 This was my first ever attempt at create a full stack application on my own and I decided it would be fun to do it as a mobile app instead of as a web app since the world is going mobile.
 Below are the lists of technologies, a description of what I learned, how it works, and at the bottom is the link to both github repos.

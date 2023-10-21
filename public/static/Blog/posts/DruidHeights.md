@@ -1,7 +1,7 @@
 ---
 title: 'Druid Heights'
 date: '2022-08-25'
-subtitle: 'The remains of a bohemian communal living area reside in the depths of Muir Woods. I ventured out to explore the area. Here are my discoveries and the story behind the place.'
+subtitle: 'The remains of a bohemian communal living area reside in the depths of Muir Woods. I ventured out to explore the area. Here are my discoveries and the story behind the place'
 ---
 
 ![](/static/Blog/images/DruidHeights/Aban1.jpg)
