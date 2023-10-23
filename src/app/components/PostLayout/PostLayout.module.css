@@ -29,10 +29,15 @@
     color: blue;
 }
 
+.post a:visited {
+    text-decoration: underline;
+    color: rgb(115, 0, 192);
+}
+
 .post p {
     margin-left: 7.5%;
     margin-right: 7.5%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: gray;
     font-size: 130%;
     line-height: 140%;
@@ -47,9 +52,13 @@
 }
 
 .post ul {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     list-style: none;
     margin-bottom: 20px;
+    font-size: 130%;
+    width: 40%;
 }
   
 .post li {
@@ -73,17 +82,17 @@
     }
 
     .post ul {
-        text-align: center;
         list-style: none;
         margin-bottom: 20px;
+        width: 100%;
     }
       
 
     .post li {
         text-align: left;
-        padding-left: 1em; /* Add some padding for the bullet point */
+        padding-left: 0em; /* Add some padding for the bullet point */
         color: gray;
-        font-size: 80%;
+        font-size: 12px;
     }
 
     .title {

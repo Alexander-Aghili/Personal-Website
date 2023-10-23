@@ -84,8 +84,7 @@
     }
 
     .thumbnail {
-        width: 13em;
-        height: 10em;
+        height: auto;
     }
 
     .titlelayer{

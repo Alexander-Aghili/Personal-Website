@@ -16,6 +16,7 @@ Below are the lists of technologies, a description of what I learned, how it wor
 - Image Storage: AWS S3
 - API: REST
 
+
 I learned a lot from this entire process. 
 I spent many hours going through logs and directories fixing bugs and improving preformance.
 I had limited knowledge of REST APIs going into this, but I learned a great deal working on both the front and backend side of an API.
