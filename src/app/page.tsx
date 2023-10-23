@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import profileImage from '../../public/static/images/profilepic.jpeg'; // Import image
 import introduction from '../../public/static/text/introduction';
 import Socialbar from './components/Socialbar/Socialbar';
+import Dropdown from './components/Dropdown/Dropdown';
 
 export default function Home() {
   return (
@@ -27,8 +28,11 @@ export default function Home() {
           </div>
           <Socialbar/>
         </div>
-        <div className={styles.introductionStatement}>
-          {introduction}
+        <div className={styles.mainColumn}>
+          <div className={styles.introductionStatement}>
+            {introduction}
+          </div>
+          <Dropdown title='Skills'></Dropdown>
         </div>
       </div>
     </main>

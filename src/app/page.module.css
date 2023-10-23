@@ -12,9 +12,12 @@
   margin-right: 5%;
 }
 
-.introductionStatement {
-  display: flex;
+.mainColumn {
   padding: 1rem;
+}
+
+.introductionStatement {
+  margin-bottom: 20px;
 }
 
 .smallBio {
