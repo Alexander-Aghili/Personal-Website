@@ -6,11 +6,10 @@ import profileImage from '../../public/static/images/profilepic.jpeg'; // Import
 import introduction from '../../public/static/text/introduction';
 import Socialbar from './components/Socialbar/Socialbar';
 import Dropdown from './components/Dropdown/Dropdown';
-import Skill from './components/Skill/Skill';
+import Skills from './components/Skill/Skills';
 
 
 export default function Home() {
-  const skill = {title:"Java", image:"https://logowik.com/content/uploads/images/731_java.jpg", link:"https://www.java.com/en/"}
   return (
     <main className={styles.main}>
       <Navbar />
@@ -36,7 +35,7 @@ export default function Home() {
             {introduction}
           </div>
           <Dropdown title='Skills' content={
-          <Skill skill={skill}></Skill>}></Dropdown>
+          <Skills ></Skills>}></Dropdown>
         </div>
       </div>
     </main>

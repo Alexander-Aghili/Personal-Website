@@ -2,7 +2,37 @@
     "Skills":[
         {
             "title": "Java",
-            "image": "",
+            "image": "/static/images/skills/java.png",
+            "link": "https://www.java.com/en/"
+        },
+        {
+            "title": "Java",
+            "image": "/static/images/skills/java.png",
+            "link": "https://www.java.com/en/"
+        },
+        {
+            "title": "Java",
+            "image": "/static/images/skills/java.png",
+            "link": "https://www.java.com/en/"
+        },
+        {
+            "title": "Java",
+            "image": "/static/images/skills/java.png",
+            "link": "https://www.java.com/en/"
+        },
+        {
+            "title": "Java",
+            "image": "/static/images/skills/java.png",
+            "link": "https://www.java.com/en/"
+        },
+        {
+            "title": "Java",
+            "image": "/static/images/skills/java.png",
+            "link": "https://www.java.com/en/"
+        },
+        {
+            "title": "Java",
+            "image": "/static/images/skills/java.png",
             "link": "https://www.java.com/en/"
         }
     ]

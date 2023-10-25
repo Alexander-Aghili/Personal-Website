@@ -1,10 +1,10 @@
 .main {
     display: flex;
     border-style: solid;
-    border-radius: 5px;
     box-shadow: inset;
     border-color: lightgray;
     border-width: 1px;
+    border-radius: 5px;
     padding:15px;
     flex-direction: row;
     margin-bottom: 30px;
@@ -34,6 +34,10 @@
 .displayBox {
     display: flex;
     flex-direction: column;
+    border-style: solid;
+    box-shadow: inset;
+    border-color: lightgray;
+    border-width: 1px;
 }
 
 .content {

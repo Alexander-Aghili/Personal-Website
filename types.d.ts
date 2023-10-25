@@ -12,7 +12,7 @@ type Project = {
     date: string
 }
 
-type Skill = {
+type SkillType = {
     title: string,
     image: string,
     link: string

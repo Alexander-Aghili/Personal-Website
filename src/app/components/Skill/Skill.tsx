@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import style from "./Skill.module.css"
 
-export default function Skill(props: {skill: Skill}) {
+export default function Skill(props: {skill: SkillType}) {
     return (
         <div className={style.skillmain}>
             <a 
@@ -13,8 +13,8 @@ export default function Skill(props: {skill: Skill}) {
                     <Image 
                     src={props.skill.image} 
                     alt={''}
-                    width={30}
-                    height={30}
+                    width={40}
+                    height={40}
                     className={style.image}
                     >
 
