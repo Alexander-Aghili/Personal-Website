@@ -7,37 +7,35 @@
     border-width: 1px;
     padding:15px;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .arrow {
     display: inline-block;
-    margin-right: 2%;
+    margin-right: 20px;
     user-select: none;
+    font-size: 110%;
 }
 
-.arrow::after{
+.arrowOpen{
+    display: inline-block;
+    justify-content: left;
+    margin-right: 20px;
+    user-select: none;
     transform: rotate(270deg);
-    transition: all 0.4s ease;
+    font-size: 110%;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+}
 
-.content::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+.displayBox {
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
-    opacity: 0;
-    max-height: 0;
-    overflow-y: hidden;
-    transition: all 0.4s ease;
-}
-
-.content.open {
-    margin-bottom: 15px;
+    margin-top: 15%;
 }

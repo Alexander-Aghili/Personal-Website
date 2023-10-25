@@ -1,7 +1,5 @@
 // components/Navbar.js
-import Link from 'next/link';
 import styles from './PostLayout.module.css';
-import nav_styles from '../Navbar/Navbar.module.css'
 import global_styles from '../../page.module.css'
 
 export default function PostLayout(title: string, subtitle: string, date: string, contentHtml: string, returnLocation: string) {

@@ -1,19 +1,31 @@
 "use client"
+import React, { useState } from 'react';
 import styles from './Dropdown.module.css'
 
-//For now this is just a single layout for both blogs and projects 
-//but can be easily seperated later for individual customization
-export default function Dropdown(props: {title: string}){
-    var open = false;
+export default function Dropdown(props: {title: string, content: any}){
+    const [open, setOpen] = useState(false);
     return (
         <div 
             className={styles.main}
-            onClick={() => {
-                open = !open;
-            }}
+            onClick={() => setOpen((open) => !open)}
         >
-            <p className={styles.arrow}>{'\u2B83'}</p>
-            <p> {props.title} </p>
+            <div className={styles.displayBox}>
+                <div className={styles.header}>
+                    <Dropdown.Arrow open={open}></Dropdown.Arrow>
+                    <h3> {props.title} </h3>
+                </div>
+                <Dropdown.Content open={open} children={props.content}></Dropdown.Content>
+            </div>
         </div>
     );
 }
+
+Dropdown.Arrow = function DropdownArrow(props: {open: boolean}) {
+    return props.open ? <p className={styles.arrowOpen}>{'\u2B83'}</p> : 
+    <p className={styles.arrow}>{'\u2B83'}</p>;
+}
+
+Dropdown.Content = function DropdownContent(props: {children: any, open: boolean}) {
+    return props.open ? <div className={styles.content}>{props.children}</div> : null; 
+}
+

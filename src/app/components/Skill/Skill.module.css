@@ -1,0 +1,31 @@
+.skillmain {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 30px;
+    background-color: gray;
+}
+
+.skillmain:hover{
+    background-color: rgb(167, 167, 167);
+}
+
+.skillbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+    margin:10px;
+    user-select: none;
+}
+
+.title {
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left:7px;
+    user-select: none;
+}
