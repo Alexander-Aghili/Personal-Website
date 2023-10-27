@@ -11,7 +11,7 @@ import Skills from './components/Skill/Skills';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} suppressHydrationWarning={true}>
       <Navbar />
       <div className={styles.homePage}>
         <div className={styles.smallBio}>

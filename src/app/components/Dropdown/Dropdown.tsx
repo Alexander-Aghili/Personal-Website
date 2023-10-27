@@ -5,12 +5,9 @@ import styles from './Dropdown.module.css'
 export default function Dropdown(props: {title: string, content: any}){
     const [open, setOpen] = useState(false);
     return (
-        <div 
-            className={styles.main}
-            onClick={() => setOpen((open) => !open)}
-        >
+        <div className={styles.main}>
             <div className={styles.displayBox}>
-                <div className={styles.header}>
+                <div className={styles.header} onClick={() => setOpen((open) => !open)}>
                     <Dropdown.Arrow open={open}></Dropdown.Arrow>
                     <h3> {props.title} </h3>
                 </div>

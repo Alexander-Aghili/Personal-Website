@@ -1,5 +1,4 @@
 .main {
-    display: flex;
     border-style: solid;
     box-shadow: inset;
     border-color: lightgray;
@@ -29,17 +28,13 @@
 .header {
     display: flex;
     flex-direction: row;
+    user-select: none;
 }
 
 .displayBox {
-    display: flex;
     flex-direction: column;
-    border-style: solid;
-    box-shadow: inset;
-    border-color: lightgray;
-    border-width: 1px;
 }
 
 .content {
-    margin-top: 15%;
+    margin-top: 30px;
 }

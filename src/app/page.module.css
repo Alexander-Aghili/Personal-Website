@@ -10,6 +10,7 @@
   margin-top: 75px;
   margin-left: 5%;
   margin-right: 5%;
+  align-items:self-start;
 }
 
 .mainColumn {
@@ -24,6 +25,7 @@
   display: flex;
   flex-direction: column; /* Stack content vertically */
   align-items: center; /* Center horizontally */
+  text-align: center;
   justify-content: center; /* Center vertically */
   width: 600px; /* Adjust the width as needed */
   padding: 1rem; /* Add padding for spacing */

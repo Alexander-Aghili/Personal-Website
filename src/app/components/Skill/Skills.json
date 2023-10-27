@@ -2,38 +2,63 @@
     "Skills":[
         {
             "title": "Java",
-            "image": "/static/images/skills/java.png",
+            "image": "java.png",
             "link": "https://www.java.com/en/"
         },
         {
-            "title": "Java",
-            "image": "/static/images/skills/java.png",
-            "link": "https://www.java.com/en/"
+            "title": "Python",
+            "image": "python.png",
+            "link": "https://www.python.org/"
         },
         {
-            "title": "Java",
-            "image": "/static/images/skills/java.png",
-            "link": "https://www.java.com/en/"
+            "title": "C",
+            "image": "c.png",
+            "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
-            "title": "Java",
-            "image": "/static/images/skills/java.png",
-            "link": "https://www.java.com/en/"
+            "title": "C++",
+            "image": "c++.png",
+            "link": "https://cplusplus.com/"
         },
         {
-            "title": "Java",
-            "image": "/static/images/skills/java.png",
-            "link": "https://www.java.com/en/"
+            "title": "SQL",
+            "image": "mysql.png",
+            "link": "https://www.mysql.com/"
         },
         {
-            "title": "Java",
-            "image": "/static/images/skills/java.png",
-            "link": "https://www.java.com/en/"
+            "title": "AWS",
+            "image": "aws.png",
+            "link": "https://aws.amazon.com/"
         },
         {
-            "title": "Java",
-            "image": "/static/images/skills/java.png",
-            "link": "https://www.java.com/en/"
+            "title": "Git",
+            "image": "git.png",
+            "link": "https://git-scm.com/"
+        },
+        {
+            "title": "Tomcat",
+            "image": "tomcat.png",
+            "link": "https://tomcat.apache.org/"
+        },
+        {
+            "title": "Linux",
+            "image": "linux.png",
+            "link": "https://www.linux.org/"
+        },
+        {
+            "title": "Redis",
+            "image": "redis.png",
+            "link": "https://redis.io/"
+        },
+        {
+            "title": "Flutter",
+            "image": "flutter.png",
+            "link": "https://flutter.dev/"
+        },
+        {
+            "title": "REST",
+            "image": "rest.png",
+            "link": "https://en.wikipedia.org/wiki/REST"
         }
     ]
 }

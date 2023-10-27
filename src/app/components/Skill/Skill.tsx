@@ -2,6 +2,7 @@ import Image from 'next/image'
 import style from "./Skill.module.css"
 
 export default function Skill(props: {skill: SkillType}) {
+    props.skill.image = "/static/images/skills/" + props.skill.image; 
     return (
         <div className={style.skillmain}>
             <a 
@@ -13,17 +14,19 @@ export default function Skill(props: {skill: SkillType}) {
                     <Image 
                     src={props.skill.image} 
                     alt={''}
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={35}
                     className={style.image}
                     >
 
 
                     </Image>
                 </div>
-                <h4 className={style.title}>
-                    {props.skill.title}
-                </h4>
+                <div className={style.titleholder}>
+                    <h4 className={style.title}>
+                        {props.skill.title}
+                    </h4>
+                </div>
             </a>
         </div>
     );    
