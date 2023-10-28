@@ -28,7 +28,7 @@ export function SkillsRowed(skills: SkillType[]) {
     for (var i = 0; i < totalRows - 1; i++) {
         skillsRow[i] = SkillsRow(i * rowAmount, rowAmount, skills);
     }
-    const length = total % rowAmount > 0 ? total % rowAmount : 3;
+    const length = total % rowAmount > 0 ? total % rowAmount : rowAmount;
     skillsRow[totalRows - 1] = SkillsRow((totalRows - 1) * rowAmount, length, skills);
 
     return skillsRow;

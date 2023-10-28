@@ -42,10 +42,13 @@ const ContactForm = () => {
 
   if (submitted) {
     return (
-      <>
-        <h2>Thank you!</h2>
-        <div>We'll be in touch soon.</div>
-      </>
+      <div className={style.main}>
+        <Navbar></Navbar>
+        <div className={style.thanks}>
+          <h2>Thank you!</h2>
+          <div>We'll be in touch soon.</div>
+        </div>
+      </div>
     );
   }
 
