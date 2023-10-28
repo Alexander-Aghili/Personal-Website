@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link href="/pages/blog">Blog</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/pages/contact">Contact</Link>
         </li>
       </ul>
     </nav>
