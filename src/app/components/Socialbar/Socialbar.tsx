@@ -7,6 +7,7 @@ import React from 'react';
 const Socialbar = () => {
   const githubUrl = 'https://github.com/Alexander-Aghili';
   const linkedinUrl = 'https://www.linkedin.com/in/alexanderaghili/';
+  const resumeUrl = "/pages/resume";
 
   return (
     <div className="social-bar">
@@ -26,6 +27,15 @@ const Socialbar = () => {
           className={styles.linkedinIcon}
           width={75}
           height={75}
+        />
+      </a>
+      <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
+        <img
+          src="/static/images/file.png" // Replace with the actual path to your LinkedIn logo
+          alt="Resume"
+          className={styles.resumeIcon}
+          width={40}
+          height={40}
         />
       </a>
     </div>

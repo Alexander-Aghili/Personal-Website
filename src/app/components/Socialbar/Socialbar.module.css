@@ -14,3 +14,11 @@
 .linkedinIcon:hover {
     opacity: 30%;
 }
+
+.resumeIcon{
+    margin-bottom: 17px;
+}
+
+.resumeIcon:hover {
+    opacity: 30%;
+}
