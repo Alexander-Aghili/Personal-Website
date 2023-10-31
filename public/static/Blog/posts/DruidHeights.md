@@ -37,7 +37,7 @@ Here are the photos we captured during our exploration of the area.
 
 ![](/static/Blog/images/DruidHeights/CoolWindow.jpg)
 
-![](/static/Blog/images/DruidHeights/JapanesesMeditation.jpg)
+![](/static/Blog/images/DruidHeights/JapaneseMeditation.jpg)
 
 ![](/static/Blog/images/DruidHeights/Kitchen.jpg)
 
