@@ -27,8 +27,8 @@
   align-items: center; /* Center horizontally */
   text-align: center;
   justify-content: center; /* Center vertically */
-  width: 600px; /* Adjust the width as needed */
   padding: 1rem; /* Add padding for spacing */
+  min-width: 300px;
 }
 .smallBio h1 {
   margin-bottom: 20px;

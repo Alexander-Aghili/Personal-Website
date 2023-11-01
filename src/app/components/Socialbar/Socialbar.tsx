@@ -1,6 +1,4 @@
-import Link from 'next/link';
 import styles from './Socialbar.module.css';
-import Navbar from '../Navbar/Navbar';
 
 import React from 'react';
 
