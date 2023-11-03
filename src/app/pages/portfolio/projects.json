@@ -6,7 +6,14 @@
             "Image_Location": "/static/Projects/images/PublicPoll/MainPollScreen.png",
             "Description": "This is a mobile app I made with Flutter, Apache Tomcat (Java), SQL, and some use of Redis. It allows users to create accounts, create, respond to, and save polls, and even comment on those polls. I developed a custom authentication system, polls, and comment systems",
             "Date": "August 20, 2022"
-        }   
+        },
+        {
+            "Title": "PinpointAVL",
+            "Project_Location":"/pages/portfolio/posts/PinpointAVL",
+            "Image_Location": "",
+            "Description": "A short post about my experience building robust embedded systems for an AVL tracker",
+            "Date": "November 2, 2023"
+        }
     ]
 }
   
