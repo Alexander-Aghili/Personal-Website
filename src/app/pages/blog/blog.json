@@ -1,6 +1,14 @@
 {
     "Blogs":
     [
+
+        {
+            "Title": "My Journey of Flight",
+            "Project_Location": "/pages/blog/posts/PrivatePilot",
+            "Image_Location": "/static/Blog/images/PrivatePilot/Sunset.JPEG",
+            "Description": "A short telling of my journey from a scared passenger to a private pilot",
+            "Date": "November 3, 2023"
+        },
         {
             "Title": "Druid Heights",
             "Project_Location": "/pages/blog/posts/DruidHeights",
