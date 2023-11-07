@@ -36,6 +36,7 @@ export default function Home() {
           </div>
           <Dropdown title='Skills' content={
           <Skills ></Skills>}></Dropdown>
+          <Dropdown title='My Software List' content={<></>}></Dropdown>
         </div>
       </div>
     </main>
