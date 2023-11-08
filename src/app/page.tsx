@@ -7,6 +7,7 @@ import introduction from '../../public/static/text/introduction';
 import Socialbar from './components/Socialbar/Socialbar';
 import Dropdown from './components/Dropdown/Dropdown';
 import Skills from './components/Skill/Skills';
+import SoftwareList from './components/Software/SoftwareList';
 
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
           </div>
           <Dropdown title='Skills' content={
           <Skills ></Skills>}></Dropdown>
-          <Dropdown title='My Software List' content={<></>}></Dropdown>
+          <Dropdown title='My Software List' content={<SoftwareList></SoftwareList>}></Dropdown>
         </div>
       </div>
     </main>

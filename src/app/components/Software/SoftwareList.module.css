@@ -1,0 +1,13 @@
+.softwareListContainer {
+    text-align: left;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1600px) {
+    .softwareListContainer {
+        text-align: center;
+    }
+}

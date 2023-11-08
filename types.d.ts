@@ -17,3 +17,8 @@ type SkillType = {
     image: string,
     link: string
 }
+
+type SoftwareType = {
+    title: string,
+    link: string
+}
