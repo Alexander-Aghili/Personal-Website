@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install -g npm@10.1.0
+      - run: npm install next
       - run: npm run build
         env:
             CI: true
