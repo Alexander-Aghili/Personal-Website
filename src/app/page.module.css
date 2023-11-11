@@ -42,6 +42,14 @@
 }
 
 @media (max-width: 820px) {
+  .main {
+    padding: 0rem;
+  }
+  
+  .nav {
+    padding: 2rem;
+  }
+
   .homePage {
     display: flex;
     align-items: center;
@@ -57,6 +65,11 @@
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
     padding: 1rem; /* Add padding for spacing */
+  }
+
+  .introductionStatement {
+    margin-bottom: 20px;
+    font-size: 12px;
   }
    
 }

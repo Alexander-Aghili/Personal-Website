@@ -13,7 +13,9 @@ import SoftwareList from './components/Software/SoftwareList';
 export default function Home() {
   return (
     <main className={styles.main} suppressHydrationWarning={true}>
-      <Navbar />
+      <div className={styles.nav}>
+        <Navbar />
+      </div>
       <div className={styles.homePage}>
         <div className={styles.smallBio}>
           <h1>

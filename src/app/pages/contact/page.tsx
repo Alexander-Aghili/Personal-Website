@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import style from './page.module.css';
 import Navbar from "@/app/components/Navbar/Navbar";
 
-const FORM_ENDPOINT = ""; // TODO - update to the correct endpoint
+import { Resend } from 'resend';
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -19,25 +19,13 @@ const ContactForm = () => {
       }
     }
 
-    fetch(FORM_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Form response was not ok');
-        }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        // Submit the form manually
-        e.target.submit();
-      });
+    const resend = new Resend("re_DqBHJnAU_Lbuhc6h1EG387egLnVaSgKoj");
+    // resend.emails.send({
+    //   from: data["email"],
+    //   to: 'alexander.w.aghili@gmail.com',
+    //   subject: data["name"],
+    //   html: data["message"]
+    // });
   };
 
   if (submitted) {
@@ -59,7 +47,6 @@ const ContactForm = () => {
     >
       <Navbar></Navbar>
       <form
-      action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
       className={style.form}
