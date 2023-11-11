@@ -5,7 +5,7 @@ import React from 'react';
 const Socialbar = () => {
   const githubUrl = 'https://github.com/Alexander-Aghili';
   const linkedinUrl = 'https://www.linkedin.com/in/alexanderaghili/';
-  const resumeUrl = "http://localhost:3000/static/text/AlexanderAghili_Resume.pdf";
+  const resumeUrl = "/static/text/AlexanderAghili_Resume.pdf";
 
   return (
     <div className="social-bar">
