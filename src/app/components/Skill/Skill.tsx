@@ -11,7 +11,7 @@ export default function Skill(props: {skill: SkillType}) {
             className={style.skillbox}
             >
                 <div>
-                    <Image 
+                    <img 
                     src={props.skill.image} 
                     alt={''}
                     width={30}
@@ -20,7 +20,7 @@ export default function Skill(props: {skill: SkillType}) {
                     >
 
 
-                    </Image>
+                    </img>
                 </div>
                 <div className={style.titleholder}>
                     <h4 className={style.title}>
