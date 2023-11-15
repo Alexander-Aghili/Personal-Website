@@ -1,0 +1,3 @@
+[submodule "public/static/blogs"]
+	path = public/static/blogs
+	url = https://github.com/Alexander-Aghili/blogs.git
