@@ -1,5 +1,7 @@
 # Alexander Aghili's Personal Website
 
+[Website Link](https://www.alexanderaghili.com/)
+
 This is my personal website built using React and Next.js. This website serves as my online portfolio and blog to showcase my skills, projects, and ideas. 
 
 ## Introduction
