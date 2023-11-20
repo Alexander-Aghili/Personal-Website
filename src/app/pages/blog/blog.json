@@ -5,14 +5,14 @@
         {
             "Title": "My Journey of Flight",
             "Project_Location": "/pages/blog/posts/PrivatePilot",
-            "Image_Location": "/static/Blog/images/PrivatePilot/Sunset.JPEG",
+            "Image_Location": "/static/blogs/images/PrivatePilot/Sunset.JPEG",
             "Description": "A short telling of my journey from a scared passenger to a private pilot",
             "Date": "November 3, 2023"
         },
         {
             "Title": "Druid Heights",
             "Project_Location": "/pages/blog/posts/DruidHeights",
-            "Image_Location": "/static/Blog/images/DruidHeights/Aban1.jpg",
+            "Image_Location": "/static/blogs/images/DruidHeights/Aban1.jpg",
             "Description": "Exploring the abandonded bohemian living space of Druid Heights in Muir Woods",
             "Date": "August 25, 2022"
         }
