@@ -4,6 +4,10 @@
         {
             "link": "https://github.com/adafruit/Adafruit_NeoPixel",
             "title": "Adafruit Neopixel"
+        },
+        {
+            "link": "https://github.com/apache/kafka",
+            "title": "Apache Kafka"
         }
     ]
 }
